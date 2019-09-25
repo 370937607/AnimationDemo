@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">仿微信</string>
+
+    <string name="btn_weixin">微信</string>
+    <string name="btn_address">通讯录</string>
+    <string name="btn_find">发现</string>
+    <string name="btn_me">我</string>
+
+    <string name="menu_talk">发起群聊</string>
+    <string name="menu_find">添加朋友</string>
+    <string name="menu_sweep">扫一扫</string>
+    <string name="menu_feedback">首付款</string>
+
+    <string name="toolbar_search">查找</string>
+    <string name="toolbar_add">添加</string>
+
+    <string name="address_fragment">通讯录Fragment</string>
+    <string name="menu_address">添加通讯录</string>
+
+    <string name="wechat_fragment">微信Fragment</string>
+    <string name="menu_add_friend">添加朋友</string>
+
+    <string name="find_fragment">发现Fragment</string>
+    <string name="me_fragment">我的Fragment</string>
+
+    <item name="Tag_APP" type="id" />
+    <item name="Tag_Book" type="id" />
+
+    <string-array name="dept_arr">
+        <item>计算机与软件学院</item>
+        <item>机械工程学院</item>
+        <item>电气工程学院</item>
+        <item>航空工程学院</item>
+        <item>交通工程学院</item>
+        <item>经济管理学院</item>
+        <item>商务贸易学院</item>
+        <item>艺术设计学院</item>
+        <item>国际教育学院</item>
+    </string-array>
+    <string-array name="compute_dept_item">
+        <item>软件技术</item>
+        <item>移动应用开发</item>
+        <item>网络技术</item>
+        <item>云计算</item>
+        <item>嵌入式技术</item>
+    </string-array>
+    <string-array name="mechanical_dept_item">
+        <item>机械制造</item>
+        <item>机械设计</item>
+        <item>机电一体化</item>
+        <item>工业机器人</item>
+        <item>数控设备</item>
+        <item>模具设计</item>
+    </string-array>
+</resources>
