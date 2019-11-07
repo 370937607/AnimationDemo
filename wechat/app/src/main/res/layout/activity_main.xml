@@ -20,12 +20,13 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <RadioButton
-            android:checked="true"
             android:id="@+id/btn_weixin"
-            android:text="@string/btn_weixin"
+            style="@style/TabMenuWeixin"
+            android:checked="true"
             android:drawableTop="@drawable/tab_menu_weixin"
-            style="@style/TabMenuWeixin"/>
+            android:text="@string/btn_weixin" />
         <RadioButton
             android:id="@+id/btn_address"
             android:text="@string/btn_address"

@@ -1,27 +1,31 @@
 package com.example.traing.ui.activity;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.SparseArray;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
-import android.widget.Toast;
 
-import com.example.traing.bean.Persen;
 import com.example.traing.R;
+import com.example.traing.ui.fragment.AssitantFragment;
+import com.example.traing.ui.fragment.MeFragment;
+import com.example.traing.ui.fragment.ToolsFragment;
+import com.example.traing.ui.fragment.TravelsFragment;
+import com.example.traing.until.OnDataCallbackListener;
 
 import cn.bmob.v3.Bmob;
-import cn.bmob.v3.BmobSMS;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.QueryListener;
-import cn.bmob.v3.listener.SaveListener;
-import cn.bmob.v3.listener.UpdateListener;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity
+        implements RadioGroup.OnCheckedChangeListener, OnDataCallbackListener {
+
+
+
+
     private Button button;
 
 
@@ -38,9 +42,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.btn);
-        button.setOnClickListener(this);
-
 //        1 初始化bmom
         Bmob.initialize(this, "df59acdae2e6bfd468be00b11797dd66");
 
@@ -49,6 +50,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initFragment();
         // 初始化View
         initView();
+
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar !=null){
+            actionBar.hide();
+        }
 
 
 
@@ -115,14 +122,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         group.setOnCheckedChangeListener(this);
     }
 
+
+    @Override
+    public void onCheckedChanged(RadioGroup group, int checkedId) {
+        replaceFragment(fragments.get(checkedId)); // checkedId是RadioButton的id
+    }
+
     private void initFragment() {
 
         // 1. 将创建的fragment放入集合中
         fragments = new SparseArray<>();
-        fragments.put(R.id.btn_weixin, WechatFragment.newInstance()); // RadioButton的id
-        fragments.put(R.id.btn_address, AddressFragment.newInstance());
-        fragments.put(R.id.btn_find, FindFragment.newInstance("activity向FindFragment传递的数据"));
-        fragments.put(R.id.btn_me, MeFragment.newInstance("activity向MeFragment传递的数据"));
+        fragments.put(R.id.btn_tools, ToolsFragment.newInstance()); // RadioButton的id
+        fragments.put(R.id.btn_assitant, AssitantFragment.newInstance());
+        fragments.put(R.id.btn_travels, TravelsFragment.newInstance());
+        fragments.put(R.id.btn_me, MeFragment.newInstance());
 
         // activity像fragment传递数据
 //        Fragment fragment = new FindFragment();
@@ -132,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        fragments.put(R.id.btn_find, fragment);
 
         // 2. 初始化，将页面定位为第1个fragment
-        replaceFragment(fragments.get(R.id.btn_weixin));
+        replaceFragment(fragments.get(R.id.btn_tools));
     }
 
     // 功能：对多个fragment进行管理和替换
@@ -147,24 +160,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ft.commit();
     }
 
-    }
-
-
-    //
-    private void show(String msq) {
-        Toast.makeText(MainActivity.this, msq, Toast.LENGTH_LONG).show();
-    }
-
-    @Override
-    public void onClick(View view) {
-
-        switch (view.getId()){
-            case R.id.btn:
-
-                Intent intent = new Intent(MainActivity.this,Rejest.class);
-                startActivity(intent);
-                break;
-        }
-    }
 
 }

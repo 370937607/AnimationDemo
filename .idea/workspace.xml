@@ -1,56 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="367fe1cf-7615-4965-b795-73819d5018e5" name="Default Changelist" comment="" />
+    <list default="true" id="759a2fca-1faa-445f-8145-27dcd4725c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ContentProvider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AndroidStudioProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContentProvider" beforeDir="false" afterPath="$PROJECT_DIR$/ContentProvider" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinShi/app/src/main/java/com/example/linshi/ClassActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinShi/app/src/main/java/com/example/linshi/ClassActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApplication" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApplication2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2" beforeDir="false" afterPath="$PROJECT_DIR$/Student2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/androidTest/java/com/example/student/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/androidTest/java/com/example/student/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/activity/ADDActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/activity/ADDActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/activity/UpdateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/activity/UpdateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/adapter/StudentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/adapter/StudentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/dao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/dao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/utils/DHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/java/com/example/student/utils/DHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/layout/activity_insert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/layout/activity_insert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/layout/activity_insert2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/layout/activity_insert2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/layout/item_student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/layout/item_student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/app/src/test/java/com/example/student/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/app/src/test/java/com/example/student/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Student2/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob-android-sdk-demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob_android_demo_sms-master/.idea/bmob_android_demo_sms-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob_android_demo_sms-master/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob_android_demo_sms-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob_android_demo_sms-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob_android_demo_sms-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmob_android_demo_sms-master/SMS.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu" beforeDir="false" afterPath="$PROJECT_DIR$/stu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/stu/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/androidTest/java/com/example/student/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/androidTest/java/com/example/student/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/activity/ADDActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/activity/ADDActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/activity/UpdateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/activity/UpdateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/adapter/StudentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/adapter/StudentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/dao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/dao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/utils/DHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/java/com/example/student/utils/DHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/layout/activity_insert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/layout/activity_insert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/layout/activity_insert2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/layout/activity_insert2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/layout/item_student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/layout/item_student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/app/src/test/java/com/example/student/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu/app/src/test/java/com/example/student/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stu/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stu/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stu/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/stu/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stu/settings.gradle" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_24" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/AndroidStudioProjects.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="23" />
-    <option name="width" value="1314" />
-    <option name="height" value="918" />
+    <option name="y" value="20" />
+    <option name="width" value="1680" />
+    <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AndroidStudioProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidStudioProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidStudioProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidStudioProjects" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/Downloads/android-sdk-macosx" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../Downloads/android-sdk-macosx" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -65,42 +151,109 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="367fe1cf-7615-4965-b795-73819d5018e5" name="Default Changelist" comment="" />
-      <created>1565791570142</created>
+      <changelist id="759a2fca-1faa-445f-8145-27dcd4725c7d" name="Default Changelist" comment="" />
+      <created>1570580704310</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565791570142</updated>
+      <updated>1570580704310</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="23" width="1314" height="918" extended-state="0" />
+    <frame x="0" y="20" width="1680" height="960" extended-state="0" />
     <layout>
-      <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32869297" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33333334" />
       <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Resources Explorer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/AndroidStudioProjects.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java" />
   </component>
 </project>

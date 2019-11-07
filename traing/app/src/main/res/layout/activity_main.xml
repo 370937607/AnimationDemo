@@ -8,38 +8,38 @@
 
     <LinearLayout
         android:id="@+id/content_layout"
-        android:layout_width="match_parent"
-        android:layout_height="509dp"
-        android:layout_weight="1"
+        android:orientation="vertical"
         android:background="@android:color/background_light"
-        android:orientation="vertical">
-
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
     </LinearLayout>
     <RadioGroup
         android:id="@+id/btn_group"
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
         <RadioButton
             android:checked="true"
-            android:id="@+id/btn_weixin"
+            android:id="@+id/btn_tools"
             android:text="@string/btn_weixin"
             android:drawableTop="@drawable/table_menu_tools"
             style="@style/TabMenuWeixin"/>
         <RadioButton
-            android:id="@+id/btn_address"
+            android:id="@+id/btn_assitant"
             android:text="@string/btn_address"
             android:drawableTop="@drawable/table_menu_assitant"
             style="@style/TabMenuWeixin"/>
         <RadioButton
-            android:id="@+id/btn_find"
+            android:id="@+id/btn_travels"
             android:text="@string/btn_find"
-            android:drawableTop="@drawable/tab_menu_find"
+            android:drawableTop="@drawable/table_menu_travels"
             style="@style/TabMenuWeixin"/>
         <RadioButton
             android:id="@+id/btn_me"
             android:text="@string/btn_me"
-            android:drawableTop="@drawable/tab_menu_me"
+            android:drawableTop="@drawable/table_menu_me"
             style="@style/TabMenuWeixin"/>
     </RadioGroup>
 </LinearLayout>

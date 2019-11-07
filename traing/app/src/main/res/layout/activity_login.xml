@@ -12,7 +12,7 @@
         android:layout_width="106dp"
         android:layout_height="98dp"
         android:layout_gravity="center"
-        android:src="@drawable/login" />
+        android:src="@mipmap/login" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="49dp"
-            android:src="@drawable/shouji" />
+            android:src="@mipmap/shouji" />
         　<EditText
         android:id="@+id/et_username"
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="49dp"
-            android:src="@drawable/mima" />
+            android:src="@mipmap/mima" />
         　<EditText
         android:id="@+id/et_password"
         android:layout_width="match_parent"
@@ -52,13 +52,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="忘记密码"/>
+
         <TextView
             android:id="@+id/tv_regest"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
             android:text="注册新会员"
-            android:textColor="#FF69B4"
-            android:gravity="right"/>
+            android:textColor="#FF69B4" />
 
     </LinearLayout>
 
